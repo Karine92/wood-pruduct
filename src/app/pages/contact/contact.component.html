@@ -1,0 +1,74 @@
+<div class="root">
+    <div class="parent3">
+        <div class="parent">
+            <section id="menu">
+                <div class="container">
+                    <div class="menu">
+                        <div class="logo"> 
+                            <a routerLink="/home">
+                                <img src="assets/images/logo.png" alt="logo" class="logo-image">
+                            </a>
+                        </div>
+                        <div class="logo1">
+                            <ul>
+                                <li class="menu-item"><a routerLink="/gallery"  class="menu-block">Gallery</a></li>
+                                <li class="menu-item"><a routerLink="/price" class="menu-block">Prices for services</a></li>
+                                <li class="menu-item"><a routerLink="/about" class="menu-block">About us</a></li>
+                                <li class="menu-item"><a routerLink="/contact" class="menu-block">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+            </section>
+            <section id="mobileMenu">
+                <div class="container">
+                    <div class="menu">
+                        <div class="logo" > 
+                            <a routerLink="/home">
+                                <img src="../../assets/images/logo.png" class="logo-image">
+                            </a>
+                        </div>
+                        <div class="btn-group" dropdown>
+                            <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
+                                    aria-controls="dropdown-basic">
+                                    <img src="../../assets/images/Group 61.png">
+                            </button>
+                            <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+                                role="menu" aria-labelledby="button-basic">
+                              <li role="menuitem"><a class="dropdown-item" routerLink="/gallery">Gallery</a></li>
+                              <li role="menuitem"><a class="dropdown-item" routerLink="/price">Prices for services</a></li>
+                              <li role="menuitem"><a class="dropdown-item" routerLink="/about">About us</a></li>
+                              <li role="menuitem"><a class="dropdown-item" routerLink="/contact">Contact</a>
+                              </li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="parent1">
+            <div class="container">
+                <div class="consul">
+                    <div class="consultation">
+                        <h2 class="title-work">{{contact[0].contact}}</h2>
+                        <div class="phone1">
+                            <img src="assets/images/tel.png" alt="phone-number" class="phone-image">
+                            <span class="phone-text">+420 000 000 000</span>
+                        </div>
+                        <div class="phone1">
+                            <img src="assets/images/Group.png" alt="address" class="phone-image">
+                            <span class="phone-text"> Na Plzeňce 1166/0 150 00</span>
+                        </div>
+                    </div>
+                    <div class="consultation1">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d97536.19878565891!2d44.5054976!3d40.1866752!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1674572365460!5m2!1sen!2s" width="600" height="450" style="border:0; border-radius: 80px;" 
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <app-footer></app-footer>
+</div>
+

@@ -1,0 +1,19 @@
+<div class="parent2">
+    <div class="container">
+        <h2 class="title-question">{{question[0].title6}}</h2>
+        <p class="text-question-mobile">{{question[0].text7}}</p>
+        <div class="menu">
+            <div class="title-item">
+                <form [formGroup]="form" (ngSubmit)="submit()">
+                    <input formControlName="your_name" type="text" id="name" placeholder="Your name">
+                    <input formControlName="number" type="tel" id="name" placeholder="Your telephone number">
+                    <textarea id="question" rows="4" cols="24" placeholder="Your question"></textarea>
+                        <a href="#"  class="title-link">Send</a>
+                </form>
+            </div>
+            <div class="title-item">
+                <p class="text-question">{{question[0].text7}}</p>
+            </div>
+        </div>    
+    </div>
+</div>

@@ -1,0 +1,329 @@
+.parent {
+    width: 100%;
+    background-color: #1E0C06;
+    margin: 0px;
+    padding: 40px 0px;
+    border-bottom: 1px solid #1E0C06;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.parent3 {
+    width: 100%;
+    background-color: #222021;
+}
+#menu {
+    width: 100%;
+    background-color: #1E0C06;
+}
+#mobileMenu {
+    width: 100%;
+    background-color: #1E0C06;
+}
+#button-basic {
+    background-color: #1E0C06;
+    border: none;
+}
+#dropdown-basic {
+    background-color: grey;
+}
+.container {
+    width: 1240px;
+    margin: auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.consul {
+    display: flex;
+    justify-content: space-between;
+}
+.parent-menu {
+    width: 100%;
+}
+.menu-block {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F5F5F5;
+}
+.menu-item {
+    display: inline-block;
+    margin: 20px 50px;
+}
+.parent1 {
+    width: 100%;
+    background-color: #222021;
+    padding: 50px 0px 100px;
+}
+.consultation {
+    width: 45%;
+    margin: auto;
+    padding: 50px 10px 80px;
+}
+.consultation1 {
+    width: 45%;
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+.title-work {
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    padding: 20px 30px;
+    margin: 50px 0px;
+}
+.phone1 {
+    padding: 20px 30px;
+    /* margin: 0px 50px; */
+}
+.phone-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;
+    /* identical to box height, or 42px */
+    color: #F5F5F5;
+}
+a:active {
+    color: gray;
+  }
+a:hover {
+    font-size: 30px;
+}
+.logo-image:hover {
+   color: gray;
+}
+.logo {
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    25%  { left:100px; top:0px;}
+  } 
+@media screen and (max-width: 1900px) {
+    #menu {
+        display: block;
+    }
+    #mobileMenu {
+        display: none;
+    }
+}
+@media screen and (max-width: 1300px) {
+	.container {
+		width: 1200px;
+	}
+    #mobileMenu {
+        display: none;
+    }
+    iframe {
+		width: 500px;
+	}
+    .title-work {
+		padding: 20px 0px;
+	}
+    .phone1 {
+		padding: 20px 0px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 1100px;
+	}
+    .menu-item {
+        margin: 25px 42px;
+    }
+    iframe {
+		width: 450px;
+	}
+    .title-work {
+        font-size: 80px;
+	}
+    .parent1 {
+        padding: 50px 0px;
+    }
+}
+@media screen and (max-width: 1000px) {
+	.container {
+		width: 900px;
+	}
+    .logo {
+		width: 20%;
+        position: static;
+	}
+    .logo1 {
+		width: 80%;
+	}
+    .logo-image {
+		width: 100%;
+	}
+    .menu-item {
+        margin: 18px 20px;
+    }
+    iframe {
+		width: 400px;
+	}
+    .title-work {
+        font-size: 65px;
+		padding: 20px 0px;
+	}
+    .parent1 {
+        padding: 50px 0px 0px;
+    }
+    .consultation {
+        margin: 0px;
+    }
+    .phone-text {
+        font-size: 25px;
+    }
+    .phone-image {
+        width: 30px;
+    }
+}
+@media screen and (max-width: 920px) {
+	.container {
+		width: 820px;
+	}
+    iframe {
+		width: 350px;
+        height: 400px;
+	}
+}
+@media screen and (max-width: 850px) {
+	.container {
+		width: 780px;
+	}
+    iframe {
+		width: 300px;
+        height: 350px;
+	}
+  
+}
+@media screen and (max-width: 770px) {
+	.container {
+		width: 700px;
+	}
+    #menu {
+        display: none;
+    }
+    #mobileMenu {
+        display: block;
+    }
+    .parent {
+        padding: 40px 0px;
+    }
+    .menu-item {
+        margin: 6px;
+    }
+    .menu-block {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    iframe {
+		width: 300px;
+        height: 350px;
+	}
+    .title-work {
+        font-size: 40px;
+		padding: 20px 0px;
+	}
+    .phone-text {
+        font-size: 20px;
+    }
+    .phone-image {
+        width: 28px;
+    }
+}
+@media screen and (max-width: 680px) {
+	.container {
+		width: 580px;
+	}
+    iframe {
+		width: 250px;
+        height: 300px;
+	}
+    .title-work {
+        font-size: 45px;
+		padding: 20px 0px;
+        margin: 50px 0px 30px;
+	}
+    .parent1 {
+        padding: 30px 0px 0px;
+    }
+    .consultation {
+        margin: 0px;
+        padding: 50px 10px;
+    }
+    .consultation1 {
+        padding-bottom: 50px;
+    }
+    .phone-text {
+        font-size: 20px;
+    }
+    .phone-image {
+        width: 30px;
+    }
+}
+@media screen and (max-width: 580px) {
+	.container {
+		width: 500px;
+	}
+    iframe {
+		width: 200px;
+        height: 300px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.container {
+		width: 400px;
+	}
+    .parent {
+        padding: 20px 0px;
+    }
+    .consul {
+        display: block;
+    }
+    .parent1 {
+        padding: 0px;
+    }
+    .title-work {
+    font-size: 30px;
+    margin: 0px;
+    padding: 20px 0px 50px;
+    }
+   .phone-text {
+    font-size: 20px;
+   }
+   .consultation {
+    width: 100%;
+    padding: 10px;
+   }
+   .phone1 {
+    padding: 30px 0px;
+   }
+   .consultation1 {
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    }
+    iframe {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 370px) {
+	.container {
+		width: 340px;
+	}
+} 

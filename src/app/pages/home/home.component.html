@@ -1,0 +1,137 @@
+<app-header></app-header>
+<div class="root">
+    <div class="parent">
+        <div class="title-block">
+            <div class="title">
+                <div  *ngFor="let item of data" class="title-item">
+                  <h1 class="title-text">{{item?.title}}</h1>
+                    <p class="text">{{item?.text}}</p>
+                        <a routerLink="/price" class="price-link">Order</a>         
+                </div>
+                <div class="title-item">
+                    <div *ngFor="let item of data" class="title-image">
+                        <img src="{{item?.images?.image1}}" alt="image1" class="solid-image">
+                   
+                        <img src="{{item?.images?.image2}}" alt="image2" class="solid-images">
+                    
+                        <img src="{{item?.images?.image3}}" alt="image3" class="solid-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+     <div class="parent1">
+        <div class="container">
+            <h2 class="title-work">{{work[0].title1}}</h2>
+            <div class="menu">
+                <div class="block-work">
+                    <div style="text-align: center">                    
+                        <img src="{{work[0].image4}}" alt="image"  id="works-image">
+                    </div>
+                    <h4 class="title-oak">{{work[0].text1}}</h4>
+                    <ul id="works"> 
+                        <li>
+                            <img src="{{work[0].category.icon}}" alt="vector">
+                            <span class="text-work">{{work[0].category.name}}</span>
+                        </li>
+                        <li>
+                            <img src="{{work[0].category.icon1}}" alt="vector">
+                            <span class="text-work">{{work[0].category.name1}}</span>
+                        </li>
+                        <li>
+                            <img src="{{work[0].category.icon2}}" alt="vector">
+                            <span class="text-work">{{work[0].category.name2}}</span>
+                        </li>
+                        <li>
+                            <img src="{{work[0].category.icon3}}" alt="vector">
+                            <span class="text-work">{{work[0].category.name3}}</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block-work">
+                    <div style="text-align: center">  
+                        <img src="{{work[1].image5}}" alt="image"  id="works-image">
+                    </div>
+                    <h4 class="title-oak">{{work[1].text2}}</h4>
+                    <ul id="works"> 
+                        <li>
+                            <img src="{{work[1].category1.icon4}}" alt="vector">
+                            <span class="text-work">{{work[1].category1.name4}}</span>
+                        </li>
+                        <li>
+                            <img src="{{work[1].category1.icon5}}" alt="vector">
+                            <span class="text-work">{{work[1].category1.name5}}</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block-work">
+                    <div style="text-align: center">  
+                        <img src="{{work[2].image6}}" alt="image"  id="works-image">
+                    </div>
+                    <h4 class="title-oak">{{work[2].text3}}</h4>
+                    <ul id="works"> 
+                        <li>
+                            <img src="{{work[2].category2.icon}}" alt="vector">
+                            <span class="text-work">{{work[2].category2.name}}</span>
+                        </li>
+                        <li>
+                            <img src="{{work[2].category2.icon1}}" alt="vector">
+                            <span class="text-work">{{work[2].category2.name1}}</span>
+                        </li>
+                    </ul>
+                </div>
+             </div>
+        </div>
+            <h2 class="title-our-work">{{working[0].title2}}</h2>
+            <div class="image-link">
+                <div  *ngFor="let item of working" class="image-link1" >
+                    <carousel>
+                        <slide>
+                          <img src="{{item?.image7}}" alt="first slide" style="display: block; width: 100%;  border-radius: 40px;">
+                        </slide>
+                        <slide>
+                          <img src="{{item?.image8}}" alt="second slide" style="display: block; width: 100%;">
+                        </slide>
+                        <slide>
+                          <img src="{{item?.image9}}" alt="third slide" style="display: block; width: 100%; border-radius: 40px;">
+                        </slide>
+                      </carousel>
+               </div>
+            </div>
+        <div class="container">
+            <h2  class="title-with">{{advantages[0].title3}}</h2>
+            <div class="consultation-menu">
+                <div class="consultation">
+                    <img src="{{advantages[0].image10}}" class="consultation-image">
+                </div>
+                <div *ngFor="let item of advantages" class="consultation1">
+                    <p class="consultation-text">{{item?.text4}}</p>
+                    <p class="consultation-text">{{item?.text5}}</p>
+                    <p class="consultation-text">{{item?.text6}}</p>
+                </div>
+            </div>
+            <div class="block-consultation">
+                    <a routerLink="/contact"  class="title-link">Receive a consultation</a>
+            </div>
+        </div>
+            <div class="about">
+                <div *ngFor="let item of about" class="block-about">
+                    <h2 class="title-about">{{item?.title4}}</h2>
+                    <p class="text-about">{{item?.decoration}}</p>
+                </div>
+                <div class="block-about1">
+                    <div class="title-image">
+                        <img src="{{about[0].image11}}">
+                    </div>
+                    <div class="about-block">
+                        <img src="{{about[0].image12}}" class="abs-image">
+                    </div>
+                    <div class="about-image">
+                        <img src="{{about[0].image13}}">
+                    </div>
+                </div>
+            </div>
+        </div>  
+</div>
+<app-question></app-question>
+<app-footer></app-footer>
+ 

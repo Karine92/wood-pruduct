@@ -1,0 +1,86 @@
+<div class="parent3">
+    <div class="parent">
+        <section id="menu">
+            <div class="container">
+                <div class="menu">
+                    <div class="logo"> 
+                        <a routerLink="/home">
+                            <img src="assets/images/logo.png" alt="logo" class="logo-image">
+                        </a>
+                    </div>
+                    <div class="logo1">
+                        <ul>
+                            <li class="menu-item"><a routerLink="/gallery"  class="menu-block">Gallery</a></li>
+                            <li class="menu-item"><a routerLink="/price" class="menu-block">Prices for services</a></li>
+                            <li class="menu-item"><a routerLink="/about" class="menu-block">About us</a></li>
+                            <li class="menu-item"><a routerLink="/contact" class="menu-block">Contact</a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section id="mobileMenu">
+            <div class="container">
+                <div class="menu">
+                    <div class="logo" > 
+                        <a routerLink="/home">
+                            <img src="../../assets/images/logo.png" class="logo-image">
+                        </a>
+                    </div>
+                    <div class="btn-group" dropdown>
+                        <button id="button-basic" dropdownToggle type="button" class="btn btn-primary dropdown-toggle"
+                                aria-controls="dropdown-basic">
+                                <img src="../../assets/images/Group 61.png">
+                        </button>
+                        <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+                            role="menu" aria-labelledby="button-basic">
+                          <li role="menuitem"><a class="dropdown-item" routerLink="/gallery">Gallery</a></li>
+                          <li role="menuitem"><a class="dropdown-item" routerLink="/price">Prices for services</a></li>
+                          <li role="menuitem"><a class="dropdown-item" routerLink="/about">About us</a></li>
+                          <li role="menuitem"><a class="dropdown-item" routerLink="/contact">Contact</a>
+                          </li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div class="parent1">
+    <div class="about">
+        <div *ngFor="let item of about" class="block-about">
+            <h2 class="title-about">{{item?.title4}}</h2>
+                <p class="text-about">{{item?.decoration}}</p>
+            </div>
+            <div class="block-about1">
+                <div class="title-image">
+                    <img src="{{about[0].image11}}" class="abs-image1">
+                </div>
+                <div class="about-block">
+                    <img src="{{about[0].image12}}" class="abs-image">
+                </div>
+                <div class="about-image">
+                    <img src="{{about[0].image13}}"  class="abs-image1">
+            </div>
+        </div>
+    </div>
+    <h2 class="title-our-work">{{working[0].title2}}</h2>
+    <div class="image-link">
+        <div  *ngFor="let item of working" class="image-link1" >
+            <carousel>
+                <slide>
+                  <img src="{{item?.image7}}" alt="first slide" style="display: block; width: 100%;  border-radius: 40px;">
+                </slide>
+                <slide>
+                  <img src="{{item?.image8}}" alt="second slide" style="display: block; width: 100%;">
+                </slide>
+                <slide>
+                  <img src="{{item?.image9}}" alt="third slide" style="display: block; width: 100%; border-radius: 40px;">
+                </slide>
+              </carousel>
+       </div>
+        
+    </div>
+</div>
+<app-question></app-question>
+<app-footer></app-footer>

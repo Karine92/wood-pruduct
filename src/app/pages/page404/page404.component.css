@@ -1,0 +1,71 @@
+
+.parent {
+    background-color: #222021;
+    width: 100%;
+    background-image: url('../../../assets/images/imag.png'),  url('../../../assets/images/Vector 34.png'), url('../../../assets/images/Vector 33.png'), url('../../../assets/images/Vector 32.png'), url('../../../assets/images/Vector 31.png'), url('../../../assets/images/Vector 30.png'),
+    url('../../../assets/images/Vector 29.png'), url('../../../assets/images/Vector 28.png'), url('../../../assets/images/Vector 26.png'), url('../../../assets/images/Vector 25.png');
+ 
+    background-repeat: no-repeat;
+    background-position: 0px,  1272px 796px, 1110px 729px, 918px 659px, 740px 570px, 562px 470px, 940px 113px, 613px 40px, 43px -30px, -60px 0px;
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.container {
+    width: 1240px;
+    margin: auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-block {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F5F5F5;
+}
+.menu-item {
+    display: inline-block;
+    margin: 0px 50px;
+}
+.text {
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 107.9%;
+    /* or 97px */
+    color: #F5F5F5;
+    text-align: center;
+    margin: 0px;
+}
+.text1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFDBBB;
+    margin: 30px;
+}
+
+.link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+    text-decoration: none;
+    background: #728BAD;
+    border-radius: 42px;
+    border: #728BAD;
+}
+.button-item {
+    text-align: center;
+}

@@ -1,0 +1,86 @@
+{
+    "solid_wood_products": [
+        {
+            "title": "solid wood products",
+            "text": "Oak, beech, ash from 1700 CZK per m3",
+            "images": {
+                "image1":  "assets/images/image.png", 
+                "image2": "assets/images/image (1).png", 
+                "image3": "assets/images/image (2).png"
+              }
+        }
+    ],
+    "work_with": [
+        {
+            "title1": "the wood we work with",
+            "image4": "assets/images/old-wood-grain-background 2.png",
+            "text1": "Oak",
+            "category": {
+                "icon": "assets/images/Vector.png",
+                "name": "Durabiliti", 
+                "icon1": "assets/images/Vector.png",
+                "name1": "Beautiful texture",
+                "icon2": "assets/images/Vector.png",
+                "name2": "Water resistence",
+                "icon3": "assets/images/Vector1.png",
+                "name3": "Expensive"
+            }
+            
+        },
+        {
+            "image5": "assets/images/wood-texture-design-decoration 1.png",
+            "text2": "Buk",
+            "category1": {
+                "icon4": "assets/images/Vector.png",
+                "name4": "Durabiliti",
+                "icon5": "assets/images/Vector1.png",
+                "name5": "Hard to handle"
+            }
+        },
+        {
+            "image6": "assets/images/pale-oak-wood-texture-design-background 1.png",
+            "text3": "Ash",
+            "category2": {
+                "icon": "assets/images/Vector.png",
+                "name": "Durabiliti",
+                "icon1": "assets/images/Vector1.png",
+                "name1": "Hard to handle"
+            }
+        }
+    ],
+    "our_work": [{
+        "title2": "our work",
+        "image7": "assets/images/romantic-outdoor-reception6-scaled-1130x754.jpg",
+        "image8": "assets/images/modern-wooden-kitchen-interior-steel-kitchen-faucet 2.png",
+        "image9": "assets/images/emerald-green-romantic-elegant-wedding-vancouver-8-1130x754.jpg"
+    }],
+
+    "advantages": [{
+        "title3": "advantages working with us",
+        "image10": "assets/images/video.png",
+        "text4": "In-house carpentry production",
+        "text5": "We only treat wood with environmentally friendly and safe products",
+        "text6": "Prices from the manufacturer, no extra charges"
+    }
+    ],
+    "about_us": [{
+        "title4": "About us",
+        "decoration": "BIO CWT  - We manufacture solid wood products according to individual drawings. We make chairs, armchairs, wardrobes, beds and much more in our own workshop, equipped with all the necessary industrial equipment.",
+        "image11": "assets/images/person-taking-measures-wood 1.png",
+        "image12": "assets/images/portrait-young-motivated-carpenter-standing-by-woodworking-machine-his-carpentry-workshop 1.png",
+        "image13": "assets/images/cropped-man-wearing-blue-overall-drawing-furniture-sheet-paper 1.png"
+    }],
+    "price": [{
+        "title5": "price list",
+        "image14": "assets/images/pricelist.jpg",
+        "image15": "assets/images/price.png",
+        "image16": "assets/images/price.png"
+    }],
+    "contact": [{
+        "contact": "Contact"
+    }],
+    "question": [{
+        "title6": "Any questions?",
+        "text7": "Write to us and we will be sure to answer all your questions and give you a comprehensive consultation."
+    }]
+}
