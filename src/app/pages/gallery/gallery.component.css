@@ -10,6 +10,7 @@
 .parent3 {
     width: 100%;
     background-color: #222021;
+    margin-bottom: -3px;
 }
 .container {
     width: 1240px;
@@ -209,6 +210,7 @@ a:hover {
     #works {
         padding-left: 50px;
     }
+    
 }
  @media screen and (max-width: 1200px) {
 	.container {

@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from '../about/about.component';
 import { ContactComponent } from '../contact/contact.component';
 import { GalleryComponent } from '../gallery/gallery.component';
+import { Page404Component } from '../page404/page404.component';
 import { PriceComponent } from '../price/price.component';
 import { HomeComponent } from './home.component';
 

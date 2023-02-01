@@ -395,7 +395,12 @@ footer {
 	.container {
 		width: 1200px;
 	}
+    .title-block {
+        margin-top: -5px;
+        background-position-y: -152px;
+    }
     .title {
+        
         background-position: 600px 100px;
     }
     #works {
@@ -624,6 +629,9 @@ footer {
 	.container {
 		width: 700px;
 	}
+    .title-block {
+        background-position-y: -120px;
+    }
     #menu {
         display: none;
     }
@@ -875,6 +883,10 @@ footer {
 	.container {
 		width: 400px;
 	}
+    .title-block {
+        background-position-y: -77px;
+        margin-top: -22px;
+    }
     .parent {
         padding: 20px 0px;
     }

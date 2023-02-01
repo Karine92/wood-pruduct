@@ -42,37 +42,17 @@ const router: Route[] = [
     path: 'gallery',
     loadChildren: () => import('./pages/gallery/gallery.module').then(g => g.GalleryModule)
   },
-
   {
     path: 'price',
     loadChildren: () => import('./pages/price/price.module').then(p => p.PriceModule)
   },
-  // {
-  //   path: '', 
-  //   redirectTo: 'price',
-  //   pathMatch: "full"
-  // },
-  // {
-  //   path: '',
-  //   component: AboutComponent
-  // },
   {
     path: 'about',
     loadChildren: () => import('./pages/about/about.module').then(a => a.AboutModule)
   },
   {
-    path: '', 
-    redirectTo: 'about',
-    pathMatch: "full"
-  },
-  {
     path: 'contact',
     loadChildren: () => import('./pages/contact/contact.module').then(c => c.ContactModule)
-  },
-  {
-    path: '', 
-    redirectTo: 'contact',
-    pathMatch: "full"
   },
   {
     path: '**',
